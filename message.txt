@@ -1,0 +1,7 @@
+Dear ${SECRET_SANTA},
+
+You are ${GIFT_RECEIVER}'s Secret Santa!
+
+Merry Christmas and Happy Holidays!
+
+-Saint Nick
