@@ -1,2 +1,4 @@
-(name of group member) (email of group member)
-(name of group member) (email of group member)
+(first person to gift) (first person's email)
+(second person to gift) (second person's email)
+(third person to gift) (third person's email)
+etc...
