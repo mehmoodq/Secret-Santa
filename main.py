@@ -37,9 +37,12 @@ def read_template(filename):
 
 def main():
     names, emails = get_contacts('mycontacts.txt')
+    if len(names) < 3 or len(emails) < 3:
+        print("Enter at least three people for Secret Santa!")
+        exit()
+
     message_template = read_template('message.txt')
     receivers = names.copy()
-
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
